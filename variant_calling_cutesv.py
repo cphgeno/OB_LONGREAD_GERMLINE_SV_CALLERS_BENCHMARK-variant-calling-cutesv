@@ -117,7 +117,7 @@ def main():
         help="Haplotype 2 assembly graph (GFA format)."
     )
 
-    # Truth set (optional but commonly required for evaluation)
+    # Truth set
     parser.add_argument(
         "--data.truthset",
         dest="data_truthset",
